@@ -1,0 +1,148 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  height: 50px;
+  margin-top: 50px;
+
+}
+.top_menu li a{
+  color: #FFFFFF;
+}
+.left{ float: left;
+  display: inline;
+  color: #FFFFFF !important;
+  margin-left: 2mm;
+}
+
+.right{float: right;
+display: inline;
+color: #FFFFFF !important;
+text-decoration: none;
+margin-right: 30px;
+}
+
+li
+{   list-style: none;
+
+}
+/* from here */
+
+header {
+width: 100%;
+background-color: #2B2B2B;
+height: 50px;
+position: absolute;
+top: 0;
+text-indent: 3mm;
+text-decoration: none;
+box-shadow: none;
+border: 0;
+text-decoration: none;
+
+
+}
+
+header ul {
+    color: #FFFFFF;
+}
+header ul a {
+}
+header li {
+    color: #FFFFFF;
+
+}
+header ul:after {
+}
+/* Up to here is the implementation of the header part */
+.main-header img {
+  width: 10%;
+  margin: 100px;
+/* Implementation of main image (white “Achieve” text image) */
+}
+.h1
+{font-size: 1.5rem;
+}
+.p
+{
+  font-size: 0.8rem;
+}
+
+.about {
+/* About Implementation of Achieve part */
+margin-bottom: 40px;
+}
+/* from here */
+.function {
+    background-color: #D3D3D3;
+    height: 260px;
+  width: 100%;
+}
+
+.function-images
+{
+margin: auto;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.function-images li {
+  text-align: center;
+}
+
+.function-images ul {
+    display: table-cell;
+      margin-left: 100px;
+      text-align: center;
+      padding: 0;
+      display: inline-block;
+          }
+
+.function-image {
+  float: left;
+  margin-bottom: 40px;
+  height: auto;
+  margin-right: 30px;
+  margin-left: 20px;
+  /*padding: -60px;*/
+  /*margin-left: 180px;*/
+}
+
+.function-image img
+{width: 20px;
+  margin: 0;
+  padding: 0px;
+  font-size: 1em;
+}
+
+.fuction-image p{
+  width: 20px;
+}
+
+/* Up to here is the implementation of the function part */
+.footer
+{
+  background-color: #283A4B;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  }
+
+.footer p
+{
+  background-color: #283A4B;
+  font-size: 0.8rem;
+  color: #fff;
+  /* Addendum */
+    }
